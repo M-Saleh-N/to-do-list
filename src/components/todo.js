@@ -10,6 +10,10 @@ function Todolist (){
 
         }
     };
+    const deleteTask = (index) => {
+        setTask(task.filter((task, i) => i !== index));
+    };
+    
 }
 
 export default Todolist;
