@@ -16,7 +16,7 @@ function Todolist (){
 
     return(
         <div className="todo-container">
-      <h1>TO-DO LIST</h1>
+      <h1>TO-DO LIST📃</h1>
       <h2>Add your tasks for today</h2>
       <input
         type="text"
@@ -24,7 +24,7 @@ function Todolist (){
         onChange={(e) => setNewTask(e.target.value)}  // Update newTask state on input change
         placeholder="Enter a new task"
       />
-      <button onClick={addTask}>Add</button>
+      <button onClick={addTask}>Add➕</button>
 
       <ul className="task-list">
         {task.map((taskItem, index) => (
