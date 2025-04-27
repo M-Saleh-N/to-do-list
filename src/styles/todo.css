@@ -68,3 +68,11 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     animation: slideIn 0.5s ease-out;
   }
+
+  li:hover {
+    background-color: #f0f8ff;
+    transform: scale(1.02);
+  }
+
+
+  
