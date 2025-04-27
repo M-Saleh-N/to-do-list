@@ -1,0 +1,13 @@
+.todo-container {
+    font-family: 'Arial', sans-serif;
+    width: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #7fa1d3, #244976);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out;
+  }
+
+
+  
