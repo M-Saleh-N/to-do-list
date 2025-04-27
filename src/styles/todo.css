@@ -44,3 +44,9 @@
     display: inline-block;
     margin-top: 10px;
   }
+
+  button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
