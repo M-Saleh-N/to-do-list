@@ -9,5 +9,9 @@
     animation: fadeIn 1s ease-out;
   }
 
-
+  h1, h2 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
   
